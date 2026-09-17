@@ -8,25 +8,9 @@
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
 
-<header class="nav">
-  <div class="nav-inner">
-    <a class="logo" href="#home">
-      <span class="logo-mark">JF</span>
-    </a>
-    <nav class="nav-links">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="btn btn-connect" href="#contact">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
-      Connect
-    </a>
-  </div>
-</header>
+<div id="nav-root"></div>
 
 <main>
 
@@ -78,7 +62,7 @@
         <h2>Things I've <span class="accent">Built</span></h2>
         <p>Here are some of the projects I've been working on. Each one is a step in my journey to becoming a better developer.</p>
       </div>
-      <a href="#projects" class="view-all">View All Projects →</a>
+      <a href="projects.html" class="view-all">View All Projects →</a>
     </div>
 
     <div class="project-grid" id="project-grid">
@@ -88,13 +72,7 @@
 
 </main>
 
-<footer class="site-footer" id="contact">
-  <ul class="social-row" id="social-row">
-    <!-- Injected by script.js from config.js SITE_CONFIG.social -->
-  </ul>
-  <p class="copyright">© <span id="year"></span> Johnny Fatorma. All rights reserved.</p>
-  <p class="footer-tagline">Build / Learn / Create / Grow</p>
-</footer>
+<div id="footer-root"></div>
 
 <script src="config.js"></script>
 <script src="script.js"></script>
