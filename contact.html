@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — JohnnyTech.dev</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+
+<div id="nav-root"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="page-hero-text">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Let's Build <span class="accent">Something Great</span></h1>
+      <p class="page-hero-desc">Have a project in mind, a collaboration idea, or just want to say hello? I'd love to hear from you. Feel free to reach out through any of the channels below.</p>
+      <ul class="mini-badges">
+        <li>&lt;/&gt; Open to Opportunities</li>
+        <li>🤝 Collaboration Welcome</li>
+        <li>💡 Always Learning</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact-grid">
+    <div class="contact-info-card">
+      <span class="eyebrow">Contact Information</span>
+      <ul id="contact-info-list" class="contact-info-list"></ul>
+    </div>
+
+    <div class="contact-form-card">
+      <span class="eyebrow">Send Me a Message</span>
+      <p class="muted">Fill out the form below and I'll get back to you shortly.</p>
+      <form id="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name *" required>
+          <input type="email" name="email" placeholder="Your Email *" required>
+        </div>
+        <input type="text" name="subject" placeholder="Subject *" required>
+        <textarea name="message" rows="5" placeholder="Tell me about your project, idea, or just say hello..." required></textarea>
+        <div class="form-footer">
+          <button type="submit" class="btn btn-connect">📨 Send Message</button>
+          <span class="muted-note">⚡ I usually reply within 24 hours</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="quick-contact-section">
+    <span class="eyebrow center">Other Ways to Reach Me</span>
+    <h2 class="center">Quick <span class="accent">Contact</span></h2>
+    <div id="quick-contact-grid" class="quick-contact-grid"></div>
+  </section>
+
+  <section class="location-section">
+    <div class="location-card">
+      <span class="ci-icon">📍</span>
+      <span class="eyebrow">My Location</span>
+      <h3 id="location-title">Sierra Leone</h3>
+      <p class="muted">West Africa</p>
+      <p class="location-line">Same dream. Different location.<br>Still connected through technology.</p>
+    </div>
+    <div class="location-card">
+      <span class="ci-icon">📍</span>
+      <span class="eyebrow">Follow My Journey</span>
+      <p class="muted">Stay updated with my latest projects, ideas and progress.</p>
+      <ul id="follow-links" class="follow-links">
+        <li><a href="index.html">Portfolio Home →</a></li>
+        <li><a href="projects.html">Projects →</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<div id="footer-root"></div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
