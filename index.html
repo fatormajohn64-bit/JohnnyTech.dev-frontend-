@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JohnnyTech.dev — Johnny Fatorma</title>
+<meta name="description" content="Portfolio of Johnny Fatorma — self-taught developer exploring Python, AI, Machine Learning and Web Development.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#home">
+      <span class="logo-mark">JF</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-connect" href="#contact">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
+      Connect
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1 class="name">JOHNNY<br><span>FATORMA</span></h1>
+      <p class="tagline">DRIVEN BY<br>CURIOSITY.</p>
+      <p class="hero-desc">Aspiring self-taught developer exploring Python, AI, Machine Learning, and functional Web Development. Building tools fueled by pure curiosity.</p>
+      <ul class="skill-pills">
+        <li><span class="pill-icon">🐍</span> Python</li>
+        <li><span class="pill-icon">🧠</span> AI</li>
+        <li><span class="pill-icon">◇</span> Machine Learning</li>
+        <li><span class="pill-icon">&lt;/&gt;</span> Web Dev</li>
+      </ul>
+    </div>
+    <div class="hero-visual">
+      <svg id="network" viewBox="0 0 500 500" aria-hidden="true"></svg>
+    </div>
+    <ul class="hero-side-labels">
+      <li>CODE</li>
+      <li>LEARN</li>
+      <li>BUILD</li>
+      <li>GROW</li>
+    </ul>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-card">
+      <span class="eyebrow">About Me</span>
+      <h2>My Journey: <span class="accent">Learning Fast</span></h2>
+      <div class="about-body">
+        <div class="about-icon">📖</div>
+        <p>I'm a self-taught developer with a passion for technology, problem solving, and building useful things. I'm currently learning Python, AI, Machine Learning, and modern web development. Every day is a new opportunity to grow, explore, and turn ideas into real projects.</p>
+      </div>
+      <ul class="about-traits">
+        <li>🎓 Self Taught <span>→</span></li>
+        <li>📘 Always Learning <span>→</span></li>
+        <li>💡 Problem Solver <span>→</span></li>
+        <li>🚀 Future Builder <span>→</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <div>
+        <span class="eyebrow">My Projects</span>
+        <h2>Things I've <span class="accent">Built</span></h2>
+        <p>Here are some of the projects I've been working on. Each one is a step in my journey to becoming a better developer.</p>
+      </div>
+      <a href="#projects" class="view-all">View All Projects →</a>
+    </div>
+
+    <div class="project-grid" id="project-grid">
+      <!-- Cards injected by script.js from config.js PROJECTS array -->
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <ul class="social-row" id="social-row">
+    <!-- Injected by script.js from config.js SITE_CONFIG.social -->
+  </ul>
+  <p class="copyright">© <span id="year"></span> Johnny Fatorma. All rights reserved.</p>
+  <p class="footer-tagline">Build / Learn / Create / Grow</p>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
